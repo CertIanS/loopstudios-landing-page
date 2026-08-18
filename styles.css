@@ -1,3 +1,52 @@
 body{
+    font-family: 'Alata', sans-serif;
+}
+
+/*header, footer{
+    font-family: 'Josefin Sans', sans-serif;
+}*/
+
+header{
+    background-image: url("./images/desktop/image-hero.jpg");
+}
+
+h1, h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: black;
+}
+
+button{
+    background-color: white;
+    border: 1px solid black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#copyright{
+    color: hsl(0, 0%, 85%);
+}
+
+#immersive{
+    color: white;
+    border: 1px solid white;
+    font-size: 25px;
     font-family: 'Josefin Sans', sans-serif;
 }
