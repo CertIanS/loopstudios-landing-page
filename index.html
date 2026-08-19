@@ -11,6 +11,8 @@
   <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
   <link href="./styles.css" rel="stylesheet">
+
+  <script defer src="./main.js"></script>
 </head>
 <body>
   <main class="main">
@@ -25,6 +27,7 @@
           <li><a href="#">Support</a></li>
         </ul>
       </nav>
+      <a href="#" id="openMenu" onclick="openMenu();"><img src="./images/icon-hamburger.svg" alt="openMenu"/></a>
       <span id="immersive">IMMERSIVE EXPERIENCES THAT DELIVER</span>
     </header>
     <section>
@@ -60,15 +63,23 @@
       </nav>
       <section id="socialLinks">
         <a href="#"><img src="./images/icon-facebook.svg" alt="facebook"/></a>
-        
         <a href="#"><img src="./images/icon-twitter.svg" alt="twitter"/></a>
         <a href="#"><img src="./images/icon-pinterest.svg" alt="pinterest"/></a>
         <a href="#"><img src="./images/icon-instagram.svg" alt="instagram"/></a>
-        
-        
       </section>
       <span id="copyright">© 2021 Loopstudios. All rights reserved.</span>
     </footer>
   </main>
+  <nav id="mobileMenu">
+    <img src="./images/logo.svg" alt="menuLogo"/>
+    <a href="#" onclick="closeMenu(); return false;"><img src="./images/icon-close.svg" alt="closeMenu"/></a>
+    <ul>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">CAREERS</a></li>
+      <li><a href="#">EVENTS</a></li>
+      <li><a href="#">PRODUCTS</a></li>
+      <li><a href="#">SUPPORT</a></li>
+    </ul>
+  </nav>
 </body>
 </html>
