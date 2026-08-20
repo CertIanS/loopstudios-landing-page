@@ -27,6 +27,7 @@ a{
 
 a:hover{
     text-decoration: underline;
+    text-underline-offset: 8px;
 }
 
 footer{
@@ -86,7 +87,7 @@ button:hover{
 
 #socialLinks img:hover{
     cursor: pointer;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
 }
 
 #mobileMenu{
@@ -125,6 +126,10 @@ button:hover{
     height: 100vh;
 }
 
+.hide{
+    display: none;
+}
+
 @media (max-width: 70em){
     footer, ul{
         display: block;
@@ -137,6 +142,10 @@ button:hover{
 
 @media (min-width: 70em){
     #openMenu{
+        display: none;
+    }
+
+    #mobileMenu{
         display: none;
     }
 }
