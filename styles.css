@@ -98,6 +98,25 @@ button:hover{
     color: hsl(0, 0%, 85%);
 }
 
+#deepEarth, #nightArcade, #soccerTeam, #grid, #fromAbove, #borealis, #curiosity, #fisheye{
+    position: relative;
+    display: inline-block;
+}
+
+#deepEarth img, #nightArcade img, #soccerTeam img, #grid img, #fromAbove img, #borealis img, #curiosity img, #fisheye img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+#deepEarth h2, #nightArcade h2, #soccerTeam h2, #grid h2, #fromAbove h2, #borealis h2, #curiosity h2, #fisheye h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+}
+
 .show{
     visibility: visible;
     position: fixed;
