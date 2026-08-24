@@ -6,10 +6,6 @@ body{
     font-family: $alata;
 }
 
-header{
-    background-image: url("./images/desktop/image-hero.jpg");
-}
-
 h1, h2{
     font-family: $joseFin;
     font-weight: 100;
@@ -107,7 +103,8 @@ button:hover{
     display: inline-block;
 }
 
-#deepEarth img, #nightArcade img, #soccerTeam img, #grid img, #fromAbove img, #borealis img, #curiosity img, #fisheye img{
+#deepEarth picture, #nightArcade picture, #soccerTeam picture, #grid picture, 
+#fromAbove picture, #borealis picture, #curiosity picture, #fisheye picture{
     display: block;
     width: 100%;
     margin: auto;
@@ -139,6 +136,7 @@ button:hover{
     }
 
     header{
+        background-image: url("./images/mobile/image-hero.jpg");
         nav{
             display: none;
         }
@@ -146,6 +144,10 @@ button:hover{
 }
 
 @media (min-width: 70em){
+    header{
+        background-image: url("./images/desktop/image-hero.jpg");
+    }
+
     #openMenu{
         display: none;
     }
