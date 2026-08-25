@@ -23,7 +23,6 @@ li{
 a{
     text-decoration: none;
     color: white;
-
     &:hover{
         text-decoration: underline;
         text-underline-offset: 8px;
@@ -91,7 +90,6 @@ button:hover{
 
 #mobileMenu{
     background-color: black;
-
     a{
         font-family: $joseFin;
         color: $grey-color;
@@ -101,6 +99,16 @@ button:hover{
 #deepEarth, #nightArcade, #soccerTeam, #grid, #fromAbove, #borealis, #curiosity, #fisheye{
     position: relative;
     display: inline-block;
+    &:hover{
+        background-color: $grey-color;
+        cursor: pointer;
+        h2{
+            color: black;
+        }
+        picture{
+            opacity: 0.3;
+        }
+    }
 }
 
 #deepEarth picture, #nightArcade picture, #soccerTeam picture, #grid picture, 

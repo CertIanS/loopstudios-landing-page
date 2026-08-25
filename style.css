@@ -92,6 +92,16 @@ button:hover:hover {
   position: relative;
   display: inline-block;
 }
+#deepEarth:hover, #nightArcade:hover, #soccerTeam:hover, #grid:hover, #fromAbove:hover, #borealis:hover, #curiosity:hover, #fisheye:hover {
+  background-color: hsl(0, 0%, 85%);
+  cursor: pointer;
+}
+#deepEarth:hover h2, #nightArcade:hover h2, #soccerTeam:hover h2, #grid:hover h2, #fromAbove:hover h2, #borealis:hover h2, #curiosity:hover h2, #fisheye:hover h2 {
+  color: black;
+}
+#deepEarth:hover picture, #nightArcade:hover picture, #soccerTeam:hover picture, #grid:hover picture, #fromAbove:hover picture, #borealis:hover picture, #curiosity:hover picture, #fisheye:hover picture {
+  opacity: 0.3;
+}
 
 #deepEarth picture, #nightArcade picture, #soccerTeam picture, #grid picture,
 #fromAbove picture, #borealis picture, #curiosity picture, #fisheye picture {
