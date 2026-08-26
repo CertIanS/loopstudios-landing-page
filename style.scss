@@ -29,6 +29,18 @@ a{
     }
 }
 
+header{
+    padding: 2.0em;
+    img, nav, a{
+        display: inline-flex;
+        margin-bottom: 5.0em;
+    }
+
+    nav, a{
+        float: right;
+    }
+}
+
 footer{
     background-color: black;
     display: grid;
@@ -67,15 +79,26 @@ button:hover{
     }
 }
 
+picture{
+    img{
+        width: 100%;
+    }
+}
+
+#mainSection{
+    padding: 100px;
+}
+
 #copyright{
     color: $grey-color;
 }
 
 #immersive{
-    color: white;
-    border: 1px solid white;
+    color: $grey-color;
+    border: 1px solid $grey-color;
     font-size: 25px;
     font-family: $joseFin;
+    padding-top: 0.2em;
 }
 
 #socialLinks{
@@ -162,5 +185,11 @@ button:hover{
 
     #mobileMenu{
         display: none;
+    }
+
+    #imageGrid{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 15px;
     }
 }

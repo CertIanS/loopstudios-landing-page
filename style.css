@@ -25,6 +25,17 @@ a:hover {
   text-underline-offset: 8px;
 }
 
+header {
+  padding: 2em;
+}
+header img, header nav, header a {
+  display: inline-flex;
+  margin-bottom: 5em;
+}
+header nav, header a {
+  float: right;
+}
+
 footer {
   background-color: black;
   display: grid;
@@ -61,15 +72,24 @@ button:hover:hover {
   cursor: pointer;
 }
 
+picture img {
+  width: 100%;
+}
+
+#mainSection {
+  padding: 100px;
+}
+
 #copyright {
   color: hsl(0, 0%, 85%);
 }
 
 #immersive {
-  color: white;
-  border: 1px solid white;
+  color: hsl(0, 0%, 85%);
+  border: 1px solid hsl(0, 0%, 85%);
   font-size: 25px;
   font-family: "Josefin Sans", sans-serif;
+  padding-top: 0.2em;
 }
 
 #socialLinks img {
@@ -150,5 +170,10 @@ button:hover:hover {
   }
   #mobileMenu {
     display: none;
+  }
+  #imageGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
