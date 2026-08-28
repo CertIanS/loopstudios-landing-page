@@ -35,7 +35,6 @@ header{
         display: inline-flex;
         margin-bottom: 5.0em;
     }
-
     nav, a{
         float: right;
     }
@@ -105,11 +104,6 @@ picture{
     max-width: 9.5em;
 }
 
-#interactiveInfo{
-    background-color: white;
-    margin-top: 25%;
-}
-
 #socialLinks{
     img{
         padding-bottom: 5px;
@@ -171,14 +165,6 @@ picture{
 }
 
 @media (max-width: 70em){
-    footer, ul{
-        display: block;
-    }
-
-    footer{
-        text-align: center;
-    }
-
     header{
         background-image: url("./images/mobile/image-hero.jpg");
         nav{
@@ -186,12 +172,16 @@ picture{
         }
     }
 
-    #interactive{
-        width: 100%;
+    footer, ul{
+        display: block;
     }
 
-    #mobileButton{
-        display: block;
+    footer, #mainSection, #interactiveSection, #creationsHead{
+        text-align: center;
+    }
+
+    #interactive{
+        width: 100%;
     }
 
     #desktopButton{
@@ -209,7 +199,16 @@ picture{
     }
 
     #interactiveSection{
-        display: inline-flex;
+        position: relative;
+        margin-bottom: 4.0em;
+    }
+
+    #interactiveInfo{
+        position: absolute;
+        background-color: white;
+        padding: 4.0em;
+        top: 45%;
+        left: 45%;
     }
 
     #creationsHead{

@@ -96,11 +96,6 @@ picture img {
   max-width: 9.5em;
 }
 
-#interactiveInfo {
-  background-color: white;
-  margin-top: 25%;
-}
-
 #socialLinks img {
   padding-bottom: 5px;
 }
@@ -160,23 +155,20 @@ picture img {
 }
 
 @media (max-width: 70em) {
-  footer, ul {
-    display: block;
-  }
-  footer {
-    text-align: center;
-  }
   header {
     background-image: url("./images/mobile/image-hero.jpg");
   }
   header nav {
     display: none;
   }
+  footer, ul {
+    display: block;
+  }
+  footer, #mainSection, #interactiveSection, #creationsHead {
+    text-align: center;
+  }
   #interactive {
     width: 100%;
-  }
-  #mobileButton {
-    display: block;
   }
   #desktopButton {
     display: none;
@@ -190,7 +182,15 @@ picture img {
     display: none;
   }
   #interactiveSection {
-    display: inline-flex;
+    position: relative;
+    margin-bottom: 4em;
+  }
+  #interactiveInfo {
+    position: absolute;
+    background-color: white;
+    padding: 4em;
+    top: 45%;
+    left: 45%;
   }
   #creationsHead {
     display: flex;
