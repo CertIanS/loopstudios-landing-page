@@ -30,7 +30,7 @@ a{
 }
 
 header{
-    padding: 2.0em;
+    padding: 3.0em;
     img, nav, a{
         display: inline-flex;
         margin-bottom: 5.0em;
@@ -167,6 +167,8 @@ picture{
 @media (max-width: 70em){
     header{
         background-image: url("./images/mobile/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
         nav{
             display: none;
         }
@@ -192,6 +194,8 @@ picture{
 @media (min-width: 70em){
     header{
         background-image: url("./images/desktop/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 
     #openMenu, #mobileMenu, #mobileButton{
