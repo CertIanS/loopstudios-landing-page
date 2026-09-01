@@ -62,11 +62,13 @@ footer #logo {
 
 button {
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid black;
   font-family: "Alata", sans-serif;
   height: 35px;
   margin-top: 35px;
   letter-spacing: 0.3em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 
 button:hover:hover {
@@ -92,7 +94,7 @@ picture img {
   border: 1px solid hsl(0, 0%, 85%);
   font-size: 50px;
   font-family: "Josefin Sans", sans-serif;
-  padding-top: 0.2em;
+  padding: 0.5em;
   max-width: 9.5em;
 }
 
@@ -181,6 +183,20 @@ picture img {
     background-image: url("./images/desktop/image-hero.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+  footer nav {
+    margin-left: 4em;
+  }
+  footer section {
+    margin-right: 4em;
+  }
+  footer span {
+    margin-right: 4em;
+  }
+  footer #logo {
+    margin-left: 6.5em;
   }
   #openMenu, #mobileMenu, #mobileButton {
     display: none;
