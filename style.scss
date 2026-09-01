@@ -118,7 +118,21 @@ picture{
 
 #mobileMenu{
     background-color: black;
-    a{
+    width: 40%;
+    padding: 1.5em;
+    padding-top: 2.5em;
+    a img{
+        float: right;
+    }
+    ul{
+        padding-left: 0;
+        padding-top: 10.0em;
+    }
+    ul li{
+        padding-top: 0.5em;
+        font-size: 30px;
+    }
+    ul a{
         font-family: $joseFin;
         color: $grey-color;
     }

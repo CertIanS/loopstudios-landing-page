@@ -108,8 +108,22 @@ picture img {
 
 #mobileMenu {
   background-color: black;
+  width: 40%;
+  padding: 1.5em;
+  padding-top: 2.5em;
 }
-#mobileMenu a {
+#mobileMenu a img {
+  float: right;
+}
+#mobileMenu ul {
+  padding-left: 0;
+  padding-top: 10em;
+}
+#mobileMenu ul li {
+  padding-top: 0.5em;
+  font-size: 30px;
+}
+#mobileMenu ul a {
   font-family: "Josefin Sans", sans-serif;
   color: hsl(0, 0%, 85%);
 }
