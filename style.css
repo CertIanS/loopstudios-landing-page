@@ -106,6 +106,10 @@ picture img {
   border-bottom: 2px solid white;
 }
 
+#socialLinks a {
+  padding-left: 0.5em;
+}
+
 #mobileMenu {
   background-color: black;
   width: 40%;
@@ -181,6 +185,13 @@ picture img {
   }
   footer, ul {
     display: block;
+  }
+  footer ul {
+    padding-left: 0;
+    padding-bottom: 1em;
+  }
+  footer li {
+    padding-top: 1em;
   }
   footer, #mainSection, #interactiveSection, #creationsHead {
     text-align: center;

@@ -116,6 +116,10 @@ picture{
     }
 }
 
+#socialLinks a{
+    padding-left: 0.5em;
+}
+
 #mobileMenu{
     background-color: black;
     width: 40%;
@@ -192,6 +196,15 @@ picture{
 
     footer, ul{
         display: block;
+    }
+
+    footer ul{
+        padding-left: 0;
+        padding-bottom: 1.0em;
+    }
+
+    footer li{
+        padding-top: 1.0em;
     }
 
     footer, #mainSection, #interactiveSection, #creationsHead{
