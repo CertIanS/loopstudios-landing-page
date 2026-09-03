@@ -214,10 +214,7 @@ picture img {
   footer nav {
     margin-left: 4em;
   }
-  footer section {
-    margin-right: 4em;
-  }
-  footer span {
+  footer section, footer span {
     margin-right: 4em;
   }
   footer #logo {
